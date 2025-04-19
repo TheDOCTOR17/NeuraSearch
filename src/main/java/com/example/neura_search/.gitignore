@@ -1,0 +1,34 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Build directories
+/target/
+/build/
+
+# Maven / Gradle
+/.mvn/
+/.gradle/
+/*.jar
+/*.war
+/*.ear
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Application secrets (optional - see below)
+application.properties
+
+# Local dev DB
+*.h2.db
+
+# Logs and temp files
+logs/
+tmp/
