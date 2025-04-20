@@ -35,10 +35,17 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- Kafka -->
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
+
+		<!-- Vector DB -->
 		<dependency>
 			<groupId>io.milvus</groupId>
 			<artifactId>milvus-sdk-java</artifactId>
-			<version>2.3.3</version>
+			<version>2.5.7</version>
 		</dependency>
 
 		<!-- Spring Security -->
@@ -86,6 +93,12 @@
 		</dependency>
 
 		<!-- Apache Tika for PDF & document parsing -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.11.0</version> <!-- Or latest -->
+		</dependency>
+
 		<dependency>
 			<groupId>org.apache.tika</groupId>
 			<artifactId>tika-core</artifactId>
